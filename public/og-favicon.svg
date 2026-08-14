@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Olivia's Group logo">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B4332"/>
+      <stop offset="100%" stop-color="#40916C"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="#F4F1EA"/>
+  <circle cx="64" cy="64" r="52" fill="url(#g1)" opacity="0.12"/>
+  <path d="M32 88V40h12l20 26 20-26h12v48H84V62L64 86 44 62v26H32Z" fill="#1B4332"/>
+  <circle cx="64" cy="64" r="5" fill="#40916C"/>
+</svg>
