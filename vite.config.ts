@@ -2,8 +2,10 @@ import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
+const isGitHubPages = process.env.GITHUB_PAGES === 'true'
+
 export default defineConfig({
-  base: '/Olivia-Group/',
+  base: isGitHubPages ? '/Olivia-Group/' : '/',
   plugins: [react(), tailwindcss()],
   test: {
     environment: 'jsdom',
