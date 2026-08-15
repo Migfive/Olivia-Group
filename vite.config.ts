@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/olivias-group-web/',
+  base: '/Olivia-Group/',
   plugins: [react(), tailwindcss()],
   test: {
     environment: 'jsdom',
